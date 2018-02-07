@@ -5,6 +5,6 @@ from random_walk import RandomWalk
 # Make a randomw walk, and plot the points.
 rw = RandomWalk()
 rw.fill_walk()
-
-plt.scatter(rw.x_values, rw.y_values, s=5)
+plt.figure(figsize=(20, 12))
+plt.scatter(rw.x_values, rw.y_values, s=1)
 plt.show()
