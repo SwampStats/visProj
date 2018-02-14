@@ -1,3 +1,4 @@
+# Die program
 from die import Die
 
     # Create a D6.
